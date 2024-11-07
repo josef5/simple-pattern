@@ -4,16 +4,17 @@ function App() {
   return (
     <div className="App flex min-h-screen w-full">
       <div className="m-auto max-w-3xl text-4xl">
-        <div className="flex flex-row">
-          <div className="w-1/2">
+        <div className="grid grid-cols-2 grid-rows-[min-content_1fr] gap-8">
+          <div className="row-span-2 flex justify-center">
             <img
               src="/images/app-mockup.png"
-              alt="My Next Tube app on an iPhone"
+              alt="My Next Tube app on an iPhone 16 Pro"
               className="max-w-80"
             />
           </div>
-          <div className="mt-24 flex w-1/2 flex-col gap-8 px-4 text-left text-base font-normal">
-            <h1 className="flex text-6xl font-thin">My Next Tube</h1>
+          <h1 className="mt-24 flex text-6xl font-thin">My Next Tube</h1>
+
+          <div className="col-span-1 col-start-2 col-end-2 flex flex-col gap-8 pr-8 text-left text-base font-normal">
             <div className="">
               <p className="mb-4">
                 My Next Tube displays live London Underground departures
