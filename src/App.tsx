@@ -18,7 +18,7 @@ function App() {
         <div className="grid grid-cols-1 grid-rows-[min-content_1fr] gap-10 sm:grid-cols-2 sm:gap-x-16 sm:gap-y-12">
           <div className="row-span-2 flex justify-center sm:justify-start">
             <img
-              src="images/app-mockup.jpg"
+              src="/images/app-mockup.jpg"
               alt="My Next Tube app on an iPhone 16 Pro"
               className="max-w-60 sm:max-w-80"
             />
@@ -45,7 +45,10 @@ function App() {
                 href="https://itunes.apple.com/gb/app/my-next-tube/id898106340?mt=8"
                 target="_blank"
               >
-                <img src="images/appstore-badge.svg" alt="Appstore logo" />
+                <img
+                  src="/simple-pattern/images/appstore-badge.svg"
+                  alt="Appstore logo"
+                />
               </a>
             </div>
             <div>
