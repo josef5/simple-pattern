@@ -1,6 +1,17 @@
 import "./App.css";
 
 function App() {
+  const emailAddress = [
+    "mynt",
+    "@",
+    "simple",
+    "pattern",
+    ".",
+    "co",
+    ".",
+    "uk",
+  ].join("");
+
   return (
     <div className="App flex min-h-screen w-full">
       <div className="mx-auto max-w-3xl sm:m-auto">
@@ -39,12 +50,8 @@ function App() {
             </div>
             <div>
               <p className="">
-                <a
-                  className="hover:underline"
-                  href="mailto:mynt@simplepattern.co.uk"
-                >
-                  {/* TODO: obfuscate email */}
-                  mynt@simplepattern.co.uk
+                <a className="hover:underline" href={`mailto:${emailAddress}`}>
+                  {emailAddress}
                 </a>
               </p>
             </div>
