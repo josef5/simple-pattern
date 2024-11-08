@@ -3,18 +3,21 @@ import "./App.css";
 function App() {
   return (
     <div className="App flex min-h-screen w-full">
-      <div className="m-auto max-w-3xl text-4xl">
-        <div className="grid grid-cols-2 grid-rows-[min-content_1fr] gap-8">
-          <div className="row-span-2 flex justify-center">
+      <div className="mx-auto max-w-3xl sm:m-auto">
+        <div className="grid grid-cols-1 grid-rows-[min-content_1fr] gap-10 sm:grid-cols-2 sm:gap-x-16 sm:gap-y-12">
+          <div className="row-span-2 flex justify-center sm:justify-start">
             <img
               src="/images/app-mockup.png"
               alt="My Next Tube app on an iPhone 16 Pro"
-              className="max-w-80"
+              className="max-w-60 sm:max-w-80"
             />
           </div>
-          <h1 className="mt-24 flex text-6xl font-thin">My Next Tube</h1>
 
-          <div className="col-span-1 col-start-2 col-end-2 flex flex-col gap-8 pr-8 text-left text-base font-normal">
+          <h1 className="row-start-1 mx-auto mt-12 flex max-w-xs text-center text-5xl font-thin sm:col-start-2 sm:row-start-1 sm:mx-0 sm:mt-24 sm:max-w-none sm:text-left sm:text-5xl md:text-6xl">
+            My Next Tube
+          </h1>
+
+          <div className="col-span-1 col-end-2 mx-12 mb-12 flex max-w-xs flex-col gap-8 text-left text-base font-normal sm:col-start-2 sm:mx-0 sm:pr-8">
             <div className="">
               <p className="mb-4">
                 My Next Tube displays live London Underground departures
@@ -40,6 +43,7 @@ function App() {
                   className="hover:underline"
                   href="mailto:mynt@simplepattern.co.uk"
                 >
+                  {/* TODO: obfuscate email */}
                   mynt@simplepattern.co.uk
                 </a>
               </p>
