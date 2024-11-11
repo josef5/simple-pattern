@@ -20,7 +20,7 @@ function App() {
             <img
               src="/simple-pattern/images/app-mockup.jpg"
               alt="My Next Tube app on an iPhone 16 Pro"
-              className="m-auto h-auto max-h-screen max-w-60 object-contain sm:max-w-80"
+              className="m-auto h-auto max-h-[80%] max-w-60 object-contain sm:max-w-80"
             />
           </div>
 
