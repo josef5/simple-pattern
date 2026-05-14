@@ -26,12 +26,12 @@ function App() {
             <br />2
           </p>
 
-          <p className="m-0 mb-6 max-w-[206px] text-[12px] font-light leading-4 text-[#333333]">
-            My Next Tube displays live London Underground departures information
-            from the Transport for London feed. As an app for use on the move,
-            My Next Tube is specifically designed to display the most important
-            information clearly, at a glance and with the minimum of navigation
-            necessary.
+          <p className="mx-0 mb-8 text-xs font-light leading-[17px] text-neutral-600">
+            My Next Tube 2 gives you real-time London Underground train times
+            right when you need them. See live departures for stations near your
+            current location, or quickly jump to your saved favourites. Whether
+            you're rushing to work or navigating the city, My Next Tube helps
+            you get where you're going without the guesswork.
           </p>
 
           <a
