@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  /* const emailAddress = [
+  const emailAddress = [
     "mynt",
     "@",
     "simple",
@@ -10,7 +10,7 @@ function App() {
     "co",
     ".",
     "uk",
-  ].join(""); */
+  ].join("");
 
   return (
     <div className="App flex min-h-screen w-full flex-col justify-center bg-blue-200">
@@ -50,10 +50,10 @@ function App() {
           </a>
           <p className="mb-6 text-xs">
           <a
-            href="mailto:mynt@simplepattern.co.uk"
-            className="mb-[22px] text-[12px] font-light leading-4 text-[#333333] no-underline"
+              href={`mailto:${emailAddress}`}
+              className="mb-[22px] text-xs font-normal leading-4 no-underline"
           >
-            mynt@simplepattern.co.uk
+              {emailAddress}
           </a>
           </p>
           <p className="pb-12">
