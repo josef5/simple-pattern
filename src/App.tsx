@@ -48,20 +48,22 @@ function App() {
               className="h-10 w-[120px]"
             />
           </a>
-
+          <p className="mb-6 text-xs">
           <a
             href="mailto:mynt@simplepattern.co.uk"
             className="mb-[22px] text-[12px] font-light leading-4 text-[#333333] no-underline"
           >
             mynt@simplepattern.co.uk
           </a>
-
+          </p>
+          <p className="pb-12">
           <a
             href="/privacy-policy"
             className="text-[12px] font-light leading-4 text-[#333333] no-underline"
           >
             Privacy Policy
           </a>
+          </p>
         </div>
       </div>
     </div>
