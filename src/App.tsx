@@ -16,7 +16,7 @@ function App() {
     <div className="App flex min-h-screen w-full flex-col justify-center">
       <div className="flex h-[500px] justify-end">
         <div className="flex-1 bg-[url('/images/phones.png')] bg-[length:736px_auto] bg-[position:right_50px_top_0px] bg-no-repeat"></div>
-        <div className="w-[220px] flex-col text-neutral-700">
+        <div className="w-[220px] flex-col">
           <h1 className="-mt-4 mb-8 text-[96px] font-semibold leading-[80px] tracking-[-1.92px]">
             my
             <br />
@@ -25,7 +25,7 @@ function App() {
             tube
             <br />2
           </h1>
-          <p className="mx-0 mb-8 pr-9 text-xs font-light leading-[17px] text-neutral-600">
+          <p className="mx-0 mb-8 pr-9 text-xs font-light leading-[17px]">
             My Next Tube 2 gives you real-time London Underground train times
             right when you need them. See live departures for stations near your
             current location, or quickly jump to your saved favourites. Whether
@@ -57,7 +57,7 @@ function App() {
           <p className="pb-12">
             <a
               href="/privacy-policy/index.html"
-              className="text-[9px] font-light leading-4 text-neutral-500 no-underline"
+              className="text-[10px] font-light leading-4 no-underline"
             >
               Privacy Policy
             </a>
