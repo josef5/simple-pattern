@@ -529,8 +529,30 @@
         If you have any questions about this Privacy Policy, You can contact us:
       </p>
       <ul>
-        <li>By email: mynt@simplepattern.co.uk</li>
+        <li>
+          By email:
+          <span id="email-address"
+            >mynt [at] simplepattern [dot] co [dot] uk</span
+          >
+        </li>
       </ul>
     </main>
+    <script>
+      (function () {
+        const user = ["my", "nt"].join("");
+        const domain = ["simplepattern", "co", "uk"].join(".");
+        const email = user + "@" + domain;
+
+        const target = document.getElementById("email-address");
+        if (!target) return;
+
+        const link = document.createElement("a");
+        link.href = "mailto:" + email;
+        link.textContent = email;
+
+        target.textContent = "";
+        target.appendChild(link);
+      })();
+    </script>
   </body>
 </html>
