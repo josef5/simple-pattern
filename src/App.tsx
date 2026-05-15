@@ -25,15 +25,13 @@ function App() {
             tube
             <br />2
           </h1>
-
-          <p className="mx-0 mb-8 text-xs font-light leading-[17px] text-neutral-600">
+          <p className="mx-0 mb-8 pr-9 text-xs font-light leading-[17px] text-neutral-600">
             My Next Tube 2 gives you real-time London Underground train times
             right when you need them. See live departures for stations near your
             current location, or quickly jump to your saved favourites. Whether
             you're rushing to work or navigating the city, My Next Tube helps
             you get where you're going without the guesswork.
           </p>
-
           <a
             href="https://apps.apple.com"
             target="_blank"
