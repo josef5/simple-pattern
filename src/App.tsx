@@ -1,6 +1,7 @@
 import "./App.css";
 
 function App() {
+  const baseUrl = import.meta.env.BASE_URL;
   const emailAddress = [
     "mynt",
     "@",
@@ -15,7 +16,10 @@ function App() {
   return (
     <div className="App flex min-h-screen w-full flex-col justify-center">
       <div className="flex h-[500px] justify-end">
-        <div className="flex-1 bg-[url('/images/phones.png')] bg-[length:736px_auto] bg-[position:right_50px_top_0px] bg-no-repeat"></div>
+        <div
+          className="flex-1 bg-[length:736px_auto] bg-[position:right_50px_top_0px] bg-no-repeat"
+          style={{ backgroundImage: `url(${baseUrl}images/phones.png)` }}
+        ></div>
         <div className="w-[220px] flex-col">
           <h1 className="-mt-4 mb-8 text-[96px] font-semibold leading-[80px] tracking-[-1.92px]">
             my
@@ -39,7 +43,7 @@ function App() {
             className="mb-6 inline-block"
           >
             <img
-              src={"/images/appstore-badge.svg"}
+              src={`${baseUrl}images/appstore-badge.svg`}
               alt="Download on the App Store"
               width={120}
               height={40}
@@ -56,7 +60,7 @@ function App() {
           </p>
           <p className="pb-12">
             <a
-              href="/privacy-policy/index.html"
+              href={`${baseUrl}privacy-policy/index.html`}
               className="text-[10px] font-light leading-4 no-underline"
             >
               Privacy Policy
