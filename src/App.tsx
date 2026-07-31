@@ -37,7 +37,7 @@ function App() {
             you get where you're going without the guesswork.
           </p>
           <a
-            href="https://apps.apple.com"
+            href="https://apps.apple.com/gb/app/my-next-tube-2/id6768344359"
             target="_blank"
             rel="noreferrer"
             className="mb-6 inline-block"
